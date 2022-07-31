@@ -14,7 +14,7 @@ app.listen(4000, (err) => {
   }
 });
 
-mongoose.connect('mongodb+srv://admin1234:admin1234@main.sv0id.mongodb.net/?retryWrites=true&w=majority',{ // connection to mongo db
+mongoose.connect('>URI<',{ // connection to mongo db
     useNewUrlParser:true,
     useUnifiedTopology:true,
 }).then(()=>{
